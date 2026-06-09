@@ -3,13 +3,13 @@
   "products": {
     "receiver": {
       "name": "432Cue Receiver",
-      "latest": "0.1.5",
+      "latest": "0.1.6",
       "channel": "mvp",
-      "notes": "One-tap 'Update from web' (phone-as-bridge): the device web UI checks this manifest over the phone's mobile data and updates over the air. Manual upload remains as fallback.",
+      "notes": "Validates the one-command publish pipeline.",
       "size": 1140496,
-      "sha256": "295c5bc1e3ce40f2b96057f7614a0b0417209e76f3cb41614fc3238aef827c9f",
-      "url_raw": "https://raw.githubusercontent.com/432audio/432cue-firmware/main/firmware/432cue-receiver-0.1.5.bin",
-      "url_release": "https://github.com/432audio/432cue-firmware/releases/download/v0.1.5/432cue-receiver-0.1.5.bin"
+      "sha256": "da26f6688f82d052967652a1180877d5a491c2bded00451e939f7fe9db58382f",
+      "url_raw": "https://raw.githubusercontent.com/432audio/432cue-firmware/main/firmware/432cue-receiver-0.1.6.bin",
+      "url_release": "https://github.com/432audio/432cue-firmware/releases/download/v0.1.6/432cue-receiver-0.1.6.bin"
     }
   }
 }
