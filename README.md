@@ -3,22 +3,25 @@
 Official firmware **binaries** for the **432Cue** wireless presenter cue/control system
 by **432 Audio**.
 
-> This repository contains compiled firmware images only â€” **no source code**.
+> This repository contains compiled firmware images only — **no source code**.
 > It exists so 432Cue devices can be updated in the field without a laptop.
 
 ## How updates work
 
-432Cue receivers update **over the air, with no cloud and no internet on the device**:
+432Cue receivers update **over the air, with no cloud and no internet on the device**.
 
-1. Download the latest `.bin` (links below) onto a phone or laptop.
-   - **Phone tip:** make sure the file is actually **downloaded to local storage**
-     (not a cloud placeholder), or the upload will fail on the device's offline Wiâ€‘Fi.
-2. Connect to the receiver's own Wiâ€‘Fi (`432Cue-XXXX`) and open `http://192.168.4.1`.
-3. **Device â†’ Firmware update** â†’ pick the `.bin` â†’ enter the update PIN â†’ **Upload & flash**.
-4. The receiver flashes itself and reboots. The running version is shown on the OLED.
+**Easiest — one tap from the device's own page:** connect to the receiver's Wi‑Fi
+(`432Cue-XXXX`), open `http://192.168.4.1` → **Device**. If a newer version exists, an
+**"Update available"** banner appears — tap **Update now** and it fetches and flashes itself.
+(The phone needs internet; the receiver does not.)
 
-Nothing is sent to or from the internet during the update â€” the file goes straight from
-your device to the receiver over its local access point.
+**Manual** (fallback / offline): download the latest `.bin` below, then on the device page →
+**Device → Firmware update → Manual update** → pick the file → enter the PIN → **Upload & flash**.
+- **Phone tip:** make sure the file is actually **downloaded to local storage** (not a cloud
+  placeholder), or the upload can fail on the device's offline Wi‑Fi.
+
+Nothing crosses the internet during the flash itself — the image goes straight to the receiver
+over the local connection.
 
 ## Latest firmware
 
@@ -30,12 +33,12 @@ Machine-readable version info: [`manifest.json`](manifest.json).
 
 ## Verifying a download (optional)
 
-Each release lists a SHAâ€‘256. To verify on Windows:
+Each release lists a SHA‑256. To verify on Windows:
 
 ```powershell
-Get-FileHash .\432cue-receiver-0.1.2.bin -Algorithm SHA256
+Get-FileHash .\432cue-receiver-0.1.6.bin -Algorithm SHA256
 ```
 
 ---
 
-Â© 432 Audio. Firmware binaries for authorised 432Cue hardware.
+© 432 Audio. Firmware binaries for authorised 432Cue hardware.
