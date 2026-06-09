@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "products": {
+    "receiver": {
+      "name": "432Cue Receiver",
+      "latest": "0.1.2",
+      "channel": "mvp",
+      "notes": "OTA over-the-air updates proven. Firmware version now shown on the OLED heading. Honest update-progress reporting.",
+      "size": 1136592,
+      "sha256": "974f0a745cd60915e85ed48fa9b90142ccde28d14a03e9fffdc7b82b7ce1e482",
+      "url_raw": "https://raw.githubusercontent.com/432audio/432cue-firmware/main/firmware/432cue-receiver-0.1.2.bin",
+      "url_release": "https://github.com/432audio/432cue-firmware/releases/download/v0.1.2/432cue-receiver-0.1.2.bin"
+    }
+  }
+}
