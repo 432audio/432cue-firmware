@@ -24,7 +24,7 @@ your device to the receiver over its local access point.
 
 | Product | Version | Download |
 |---|---|---|
-| Receiver | **0.1.2** | [432cue-receiver-0.1.2.bin](firmware/432cue-receiver-0.1.2.bin) |
+| Receiver | **0.1.3** | [432cue-receiver-0.1.3.bin](firmware/432cue-receiver-0.1.3.bin) |
 
 Machine-readable version info: [`manifest.json`](manifest.json).
 
